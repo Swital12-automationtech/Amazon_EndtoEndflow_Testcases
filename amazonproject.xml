@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase2_LoginWithValidCred"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase3_LoginWithInValidCred"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase5_SearchProduct"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase7_Login_Search_Productinfo"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase8_Login_Search_Productsorting"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase9_Login_Search_Addtocart"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod"/>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply"/>      
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase15_Search_Addtocart_Checkout_Withoutlogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

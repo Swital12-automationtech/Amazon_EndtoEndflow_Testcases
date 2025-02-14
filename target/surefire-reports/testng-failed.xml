@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="paymentMethod_Selection"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod -->
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase3_LoginWithInValidCred">
+        <methods>
+          <include name="quit"/>
+          <include name="login_invalidcredentials"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase3_LoginWithInValidCred -->
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario">
+        <methods>
+          <include name="checkout_paymentMethod_orderreview"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario -->
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty">
+        <methods>
+          <include name="quit"/>
+          <include name="addtocart_updateqty_removeitems"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty -->
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile">
+        <methods>
+          <include name="manage_profiles"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile -->
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration">
+        <methods>
+          <include name="newcustomer_registration"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration -->
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply">
+        <methods>
+          <include name="coupon_codeapply"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

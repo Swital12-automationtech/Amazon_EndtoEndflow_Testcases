@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test on Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase2_LoginWithValidCred">
+        <methods>
+          <include name="testcase1"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase2_LoginWithValidCred -->
+    </classes>
+  </test> <!-- Test on Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
