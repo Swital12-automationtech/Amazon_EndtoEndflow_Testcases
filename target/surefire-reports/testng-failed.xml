@@ -3,13 +3,34 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod">
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply">
+        <methods>
+          <include name="coupon_codeapply"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply -->
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters">
         <methods>
           <include name="quit"/>
           <include name="launch"/>
-          <include name="paymentMethod_Selection"/>
+          <include name="login_search_filters"/>
         </methods>
-      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod -->
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters -->
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty">
+        <methods>
+          <include name="quit"/>
+          <include name="addtocart_updateqty_removeitems"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty -->
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase7_Login_Search_Productinfo">
+        <methods>
+          <include name="quit"/>
+          <include name="login_search_productinformation"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase7_Login_Search_Productinfo -->
       <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase3_LoginWithInValidCred">
         <methods>
           <include name="quit"/>
@@ -24,34 +45,13 @@
           <include name="launch"/>
         </methods>
       </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario -->
-      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty">
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase5_SearchProduct">
         <methods>
           <include name="quit"/>
-          <include name="addtocart_updateqty_removeitems"/>
           <include name="launch"/>
+          <include name="login_searchproduct"/>
         </methods>
-      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty -->
-      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile">
-        <methods>
-          <include name="manage_profiles"/>
-          <include name="quit"/>
-          <include name="launch"/>
-        </methods>
-      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile -->
-      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration">
-        <methods>
-          <include name="newcustomer_registration"/>
-          <include name="quit"/>
-          <include name="launch"/>
-        </methods>
-      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration -->
-      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply">
-        <methods>
-          <include name="coupon_codeapply"/>
-          <include name="quit"/>
-          <include name="launch"/>
-        </methods>
-      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply -->
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase5_SearchProduct -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

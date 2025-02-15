@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">22 methods,  8 skipped,  14 passed</span>
+                    <span class="method-stats">24 methods, 2 failed,  10 skipped,  12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty" class="method navigator-link" hash-for-method="addtocart_updateqty_removeitems">addtocart_updateqty_removeitems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters" class="method navigator-link" hash-for-method="login_search_filters">login_search_filters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Retried methods</span>
@@ -101,6 +120,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
                     <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty" class="method navigator-link" hash-for-method="addtocart_updateqty_removeitems">addtocart_updateqty_removeitems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty" class="method navigator-link" hash-for-method="addtocart_updateqty_removeitems">addtocart_updateqty_removeitems</a> <!-- method navigator-link -->
@@ -118,27 +142,32 @@
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply" class="method navigator-link" hash-for-method="coupon_codeapply">coupon_codeapply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase3_LoginWithInValidCred" class="method navigator-link" hash-for-method="login_invalidcredentials">login_invalidcredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile" class="method navigator-link" hash-for-method="manage_profiles">manage_profiles</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters" class="method navigator-link" hash-for-method="login_search_filters">login_search_filters</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration" class="method navigator-link" hash-for-method="newcustomer_registration">newcustomer_registration</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters" class="method navigator-link" hash-for-method="login_search_filters">login_search_filters</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod" class="method navigator-link" hash-for-method="paymentMethod_Selection">paymentMethod_Selection</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase7_Login_Search_Productinfo" class="method navigator-link" hash-for-method="login_search_productinformation">login_search_productinformation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod" class="method navigator-link" hash-for-method="paymentMethod_Selection">paymentMethod_Selection</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase5_SearchProduct" class="method navigator-link" hash-for-method="login_searchproduct">login_searchproduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -153,11 +182,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase9_Login_Search_Addtocart" class="method navigator-link" hash-for-method="addtocart">addtocart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty" class="method navigator-link" hash-for-method="addtocart_updateqty_removeitems">addtocart_updateqty_removeitems</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -178,11 +202,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase3_LoginWithInValidCred" class="method navigator-link" hash-for-method="login_invalidcredentials">login_invalidcredentials</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters" class="method navigator-link" hash-for-method="login_search_filters">login_search_filters</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -232,26 +251,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod</span>
+              <img src="failed.png"/>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="paymentMethod_Selection">
-                  </a> <!-- paymentMethod_Selection -->
-                  <span class="method-name">paymentMethod_Selection</span>
+                  <a name="login_search_filters">
+                  </a> <!-- login_search_filters -->
+                  <span class="method-name">login_search_filters</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
-  (Session info: MicrosoftEdge=133.0.3065.59)
+  (Session info: MicrosoftEdge=133.0.3065.69)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b644204d3e7935e297b2fde1da89b260, findElement {using=id, value=ap_password}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54764}, msedge: {msedgedriverVersion: 133.0.3065.59 (3b8acd719957..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54764/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b644204d3e7935e297b2fde1da89b260
+Command: [2b17b2077a9975134320e41a4e9e2d72, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b17b2077a9975134320e41a4e9e2d72
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -267,7 +286,93 @@ Session ID: b644204d3e7935e297b2fde1da89b260
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
 	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
-	at packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod.paymentMethod_Selection(Testcase12_SelectEachPaymentMethod.java:21)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters.login_search_filters(Testcase6_SearchandApplyFilters.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocart_updateqty_removeitems">
+                  </a> <!-- addtocart_updateqty_removeitems -->
+                  <span class="method-name">addtocart_updateqty_removeitems</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
+  (Session info: MicrosoftEdge=133.0.3065.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [db9d357cd17296d8290e022f48e3c6ba, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db9d357cd17296d8290e022f48e3c6ba
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
+	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty.addtocart_updateqty_removeitems(Testcase10_Login_Search_Cart_Updateqty.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="coupon_codeapply">
+                  </a> <!-- coupon_codeapply -->
+                  <span class="method-name">coupon_codeapply</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
+  (Session info: MicrosoftEdge=133.0.3065.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [893977552b073af1dd7b07c6a29856c9, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 893977552b073af1dd7b07c6a29856c9
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
+	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply.coupon_codeapply(Testcase13_Checkout_Couponapply.java:21)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -275,18 +380,18 @@ Session ID: b644204d3e7935e297b2fde1da89b260
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="paymentMethod_Selection">
-                  </a> <!-- paymentMethod_Selection -->
-                  <span class="method-name">paymentMethod_Selection</span>
+                  <a name="coupon_codeapply">
+                  </a> <!-- coupon_codeapply -->
+                  <span class="method-name">coupon_codeapply</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
-  (Session info: MicrosoftEdge=133.0.3065.59)
+  (Session info: MicrosoftEdge=133.0.3065.69)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e872e3037ee54851d927a368f8f99a7f, findElement {using=id, value=ap_password}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54931}, msedge: {msedgedriverVersion: 133.0.3065.59 (3b8acd719957..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54931/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e872e3037ee54851d927a368f8f99a7f
+Command: [18cba85f866899bab3f10337a32a15b8, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18cba85f866899bab3f10337a32a15b8
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -302,7 +407,206 @@ Session ID: e872e3037ee54851d927a368f8f99a7f
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
 	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
-	at packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod.paymentMethod_Selection(Testcase12_SelectEachPaymentMethod.java:21)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply.coupon_codeapply(Testcase13_Checkout_Couponapply.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_search_filters">
+                  </a> <!-- login_search_filters -->
+                  <span class="method-name">login_search_filters</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
+  (Session info: MicrosoftEdge=133.0.3065.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e569083936e64ecef8c5c941fc7a17a5, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e569083936e64ecef8c5c941fc7a17a5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
+	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters.login_search_filters(Testcase6_SearchandApplyFilters.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_search_filters">
+                  </a> <!-- login_search_filters -->
+                  <span class="method-name">login_search_filters</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
+  (Session info: MicrosoftEdge=133.0.3065.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [daddae9f09b72fad5547e89dafc6c1b2, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: daddae9f09b72fad5547e89dafc6c1b2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
+	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters.login_search_filters(Testcase6_SearchandApplyFilters.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocart_updateqty_removeitems">
+                  </a> <!-- addtocart_updateqty_removeitems -->
+                  <span class="method-name">addtocart_updateqty_removeitems</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
+  (Session info: MicrosoftEdge=133.0.3065.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8659f0bf000ace652cc8f70c004cd68e, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8659f0bf000ace652cc8f70c004cd68e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
+	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty.addtocart_updateqty_removeitems(Testcase10_Login_Search_Cart_Updateqty.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocart_updateqty_removeitems">
+                  </a> <!-- addtocart_updateqty_removeitems -->
+                  <span class="method-name">addtocart_updateqty_removeitems</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
+  (Session info: MicrosoftEdge=133.0.3065.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fd80aa2d8cd4598dcfa32000b4a384d8, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd80aa2d8cd4598dcfa32000b4a384d8
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
+	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty.addtocart_updateqty_removeitems(Testcase10_Login_Search_Cart_Updateqty.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase7_Login_Search_Productinfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_search_productinformation">
+                  </a> <!-- login_search_productinformation -->
+                  <span class="method-name">login_search_productinformation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#aplus&quot;}
+  (Session info: MicrosoftEdge=133.0.3065.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9e48c434b0e9a8eb621c80f61e1f4791, findElement {using=id, value=aplus}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e48c434b0e9a8eb621c80f61e1f4791
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.isDisplayed(Unknown Source)
+	at packageofamazonproject.Amazon_Project_Gtm.ProductdetailPage.proddetail(ProductdetailPage.java:46)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase7_Login_Search_Productinfo.login_search_productinformation(Testcase7_Login_Search_Productinfo.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -322,14 +626,14 @@ Session ID: e872e3037ee54851d927a368f8f99a7f
                   </a> <!-- login_invalidcredentials -->
                   <span class="method-name">login_invalidcredentials</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
-  (Session info: MicrosoftEdge=133.0.3065.59)
+  (Session info: MicrosoftEdge=133.0.3065.69)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e28943bf41ffd371ee74141b0fab7319, findElement {using=id, value=ap_password}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62686}, msedge: {msedgedriverVersion: 133.0.3065.59 (3b8acd719957..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62686/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e28943bf41ffd371ee74141b0fab7319
+Command: [1b268a1a731028ca4507e1653180c59c, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b268a1a731028ca4507e1653180c59c
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -364,15 +668,68 @@ Session ID: e28943bf41ffd371ee74141b0fab7319
                   <a name="checkout_paymentMethod_orderreview">
                   </a> <!-- checkout_paymentMethod_orderreview -->
                   <span class="method-name">checkout_paymentMethod_orderreview</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
-  (Session info: MicrosoftEdge=133.0.3065.59)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: #nav-link-accountList&apos; (tried for 120 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at packageofamazonproject.Amazon_Project_Gtm.HomePage.hoverover(HomePage.java:28)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario.checkout_paymentMethod_orderreview(Testcase11_EndtoEndScenario.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav-link-accountList&quot;}
+  (Session info: MicrosoftEdge=133.0.3065.69)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [bc67e6632c3f7969234292a102b23831, findElement {using=id, value=ap_password}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52998}, msedge: {msedgedriverVersion: 133.0.3065.59 (3b8acd719957..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52998/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bc67e6632c3f7969234292a102b23831
+Command: [5362e70cdc848d2ea750f2905ed08ea0, findElement {using=css selector, value=#nav-link-accountList}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5362e70cdc848d2ea750f2905ed08ea0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 32 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase5_SearchProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_searchproduct">
+                  </a> <!-- login_searchproduct -->
+                  <span class="method-name">login_searchproduct</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
+  (Session info: MicrosoftEdge=133.0.3065.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cfd588c3db999aafbcab02c0e286c135, findElement {using=id, value=ap_password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:9222}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9222/devtool..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cfd588c3db999aafbcab02c0e286c135
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -388,179 +745,7 @@ Session ID: bc67e6632c3f7969234292a102b23831
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
 	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
-	at packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario.checkout_paymentMethod_orderreview(Testcase11_EndtoEndScenario.java:22)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addtocart_updateqty_removeitems">
-                  </a> <!-- addtocart_updateqty_removeitems -->
-                  <span class="method-name">addtocart_updateqty_removeitems</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
-  (Session info: MicrosoftEdge=133.0.3065.59)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1e35de45caddd96c8896df770fc2777a, findElement {using=id, value=ap_password}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51620}, msedge: {msedgedriverVersion: 133.0.3065.59 (3b8acd719957..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51620/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e35de45caddd96c8896df770fc2777a
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
-	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
-	at packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty.addtocart_updateqty_removeitems(Testcase10_Login_Search_Cart_Updateqty.java:20)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="newcustomer_registration">
-                  </a> <!-- newcustomer_registration -->
-                  <span class="method-name">newcustomer_registration</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_customer_name&quot;}
-  (Session info: MicrosoftEdge=133.0.3065.59)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [4eab0b37ef68014bdbc27b802d531cef, findElement {using=id, value=ap_customer_name}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61871}, msedge: {msedgedriverVersion: 133.0.3065.59 (3b8acd719957..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61871/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4eab0b37ef68014bdbc27b802d531cef
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
-	at packageofamazonproject.Amazon_Project_Gtm.RegistrationPage.customernametext(RegistrationPage.java:39)
-	at packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration.newcustomer_registration(Testcase1_NewCustomerRegistration.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="manage_profiles">
-                  </a> <!-- manage_profiles -->
-                  <span class="method-name">manage_profiles</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
-  (Session info: MicrosoftEdge=133.0.3065.59)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [ecbb98d6569bc3c63ac078cc79dd29d4, findElement {using=id, value=ap_password}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63549}, msedge: {msedgedriverVersion: 133.0.3065.59 (3b8acd719957..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63549/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ecbb98d6569bc3c63ac078cc79dd29d4
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
-	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
-	at packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile.manage_profiles(Testcase4_ManageWithEdit_Profile.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="coupon_codeapply">
-                  </a> <!-- coupon_codeapply -->
-                  <span class="method-name">coupon_codeapply</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
-  (Session info: MicrosoftEdge=133.0.3065.59)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [5536ecfe3b21e75c230117f33cc7b11a, findElement {using=id, value=ap_password}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55199}, msedge: {msedgedriverVersion: 133.0.3065.59 (3b8acd719957..., userDataDir: C:\Users\lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55199/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5536ecfe3b21e75c230117f33cc7b11a
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
-	at packageofamazonproject.Amazon_Project_Gtm.LoginPage.pwd(LoginPage.java:52)
-	at packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply.coupon_codeapply(Testcase13_Checkout_Couponapply.java:21)
+	at packageofamazonproject.Amazon_Project_Gtm.Testcase5_SearchProduct.login_searchproduct(Testcase5_SearchProduct.java:20)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -571,14 +756,29 @@ Session ID: 5536ecfe3b21e75c230117f33cc7b11a
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase8_Login_Search_Productsorting</span>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login_search_modifyvalue_sorting">
-                  </a> <!-- login_search_modifyvalue_sorting -->
-                  <span class="method-name">login_search_modifyvalue_sorting</span>
+                  <a name="coupon_codeapply">
+                  </a> <!-- coupon_codeapply -->
+                  <span class="method-name">coupon_codeapply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="manage_profiles">
+                  </a> <!-- manage_profiles -->
+                  <span class="method-name">manage_profiles</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -601,74 +801,14 @@ Session ID: 5536ecfe3b21e75c230117f33cc7b11a
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase15_Search_Addtocart_Checkout_Withoutlogin</span>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase9_Login_Search_Addtocart</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="amazonprocess_withoutlogin">
-                  </a> <!-- amazonprocess_withoutlogin -->
-                  <span class="method-name">amazonprocess_withoutlogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkout_paymentMethod_orderreview">
-                  </a> <!-- checkout_paymentMethod_orderreview -->
-                  <span class="method-name">checkout_paymentMethod_orderreview</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addtocart_updateqty_removeitems">
-                  </a> <!-- addtocart_updateqty_removeitems -->
-                  <span class="method-name">addtocart_updateqty_removeitems</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="coupon_codeapply">
-                  </a> <!-- coupon_codeapply -->
-                  <span class="method-name">coupon_codeapply</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="manage_profiles">
-                  </a> <!-- manage_profiles -->
-                  <span class="method-name">manage_profiles</span>
+                  <a name="addtocart">
+                  </a> <!-- addtocart -->
+                  <span class="method-name">addtocart</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -691,14 +831,14 @@ Session ID: 5536ecfe3b21e75c230117f33cc7b11a
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters</span>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase8_Login_Search_Productsorting</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login_search_filters">
-                  </a> <!-- login_search_filters -->
-                  <span class="method-name">login_search_filters</span>
+                  <a name="login_search_modifyvalue_sorting">
+                  </a> <!-- login_search_modifyvalue_sorting -->
+                  <span class="method-name">login_search_modifyvalue_sorting</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -721,14 +861,44 @@ Session ID: 5536ecfe3b21e75c230117f33cc7b11a
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase9_Login_Search_Addtocart</span>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase15_Search_Addtocart_Checkout_Withoutlogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addtocart">
-                  </a> <!-- addtocart -->
-                  <span class="method-name">addtocart</span>
+                  <a name="amazonprocess_withoutlogin">
+                  </a> <!-- amazonprocess_withoutlogin -->
+                  <span class="method-name">amazonprocess_withoutlogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase2_LoginWithValidCred</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_validcredentials">
+                  </a> <!-- login_validcredentials -->
+                  <span class="method-name">login_validcredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout_paymentMethod_orderreview">
+                  </a> <!-- checkout_paymentMethod_orderreview -->
+                  <span class="method-name">checkout_paymentMethod_orderreview</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -759,21 +929,6 @@ Session ID: 5536ecfe3b21e75c230117f33cc7b11a
                   <a name="newcustomer_registration">
                   </a> <!-- newcustomer_registration -->
                   <span class="method-name">newcustomer_registration</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase2_LoginWithValidCred</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login_validcredentials">
-                  </a> <!-- login_validcredentials -->
-                  <span class="method-name">login_validcredentials</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -843,100 +998,108 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(22);
+data.addRows(24);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkout_paymentMethod_orderreview')
 data.setCell(0, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario')
-data.setCell(0, 3, 77456);
+data.setCell(0, 3, 120508);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'paymentMethod_Selection')
-data.setCell(1, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod')
-data.setCell(1, 3, 37568);
+data.setCell(1, 1, 'checkout_paymentMethod_orderreview')
+data.setCell(1, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario')
+data.setCell(1, 3, 81058);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addtocart_updateqty_removeitems')
-data.setCell(2, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty')
-data.setCell(2, 3, 36768);
+data.setCell(2, 1, 'manage_profiles')
+data.setCell(2, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile')
+data.setCell(2, 3, 42484);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'manage_profiles')
-data.setCell(3, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile')
-data.setCell(3, 3, 32899);
+data.setCell(3, 1, 'paymentMethod_Selection')
+data.setCell(3, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod')
+data.setCell(3, 3, 36676);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'coupon_codeapply')
 data.setCell(4, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply')
-data.setCell(4, 3, 28095);
+data.setCell(4, 3, 31592);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'login_search_filters')
-data.setCell(5, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters')
-data.setCell(5, 3, 27538);
+data.setCell(5, 1, 'addtocart')
+data.setCell(5, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase9_Login_Search_Addtocart')
+data.setCell(5, 3, 28457);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'addtocart')
-data.setCell(6, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase9_Login_Search_Addtocart')
-data.setCell(6, 3, 23367);
+data.setCell(6, 1, 'login_search_productinformation')
+data.setCell(6, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase7_Login_Search_Productinfo')
+data.setCell(6, 3, 27666);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'login_search_productinformation')
-data.setCell(7, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase7_Login_Search_Productinfo')
-data.setCell(7, 3, 22483);
+data.setCell(7, 1, 'login_searchproduct')
+data.setCell(7, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase5_SearchProduct')
+data.setCell(7, 3, 26316);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'login_searchproduct')
-data.setCell(8, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase5_SearchProduct')
-data.setCell(8, 3, 17138);
+data.setCell(8, 1, 'login_search_productinformation')
+data.setCell(8, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase7_Login_Search_Productinfo')
+data.setCell(8, 3, 24823);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'login_search_modifyvalue_sorting')
-data.setCell(9, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase8_Login_Search_Productsorting')
-data.setCell(9, 3, 16784);
+data.setCell(9, 1, 'amazonprocess_withoutlogin')
+data.setCell(9, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase15_Search_Addtocart_Checkout_Withoutlogin')
+data.setCell(9, 3, 21410);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'amazonprocess_withoutlogin')
-data.setCell(10, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase15_Search_Addtocart_Checkout_Withoutlogin')
-data.setCell(10, 3, 16124);
+data.setCell(10, 1, 'login_search_modifyvalue_sorting')
+data.setCell(10, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase8_Login_Search_Productsorting')
+data.setCell(10, 3, 16479);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'login_validcredentials')
 data.setCell(11, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase2_LoginWithValidCred')
-data.setCell(11, 3, 8589);
+data.setCell(11, 3, 9999);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'newcustomer_registration')
-data.setCell(12, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration')
-data.setCell(12, 3, 6200);
+data.setCell(12, 1, 'login_search_filters')
+data.setCell(12, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters')
+data.setCell(12, 3, 6793);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'login_invalidcredentials')
 data.setCell(13, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase3_LoginWithInValidCred')
-data.setCell(13, 3, 6072);
+data.setCell(13, 3, 6239);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'newcustomer_registration')
 data.setCell(14, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration')
-data.setCell(14, 3, 5473);
+data.setCell(14, 3, 5250);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'login_invalidcredentials')
-data.setCell(15, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase3_LoginWithInValidCred')
-data.setCell(15, 3, 3712);
+data.setCell(15, 1, 'login_searchproduct')
+data.setCell(15, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase5_SearchProduct')
+data.setCell(15, 3, 4782);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'manage_profiles')
-data.setCell(16, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile')
-data.setCell(16, 3, 3497);
+data.setCell(16, 1, 'addtocart_updateqty_removeitems')
+data.setCell(16, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty')
+data.setCell(16, 3, 4533);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'paymentMethod_Selection')
-data.setCell(17, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod')
-data.setCell(17, 3, 3455);
+data.setCell(17, 1, 'addtocart_updateqty_removeitems')
+data.setCell(17, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty')
+data.setCell(17, 3, 4491);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'addtocart_updateqty_removeitems')
-data.setCell(18, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty')
-data.setCell(18, 3, 2934);
+data.setCell(18, 1, 'login_search_filters')
+data.setCell(18, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters')
+data.setCell(18, 3, 4361);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'paymentMethod_Selection')
-data.setCell(19, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod')
-data.setCell(19, 3, 2928);
+data.setCell(19, 1, 'login_invalidcredentials')
+data.setCell(19, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase3_LoginWithInValidCred')
+data.setCell(19, 3, 4099);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'coupon_codeapply')
-data.setCell(20, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply')
-data.setCell(20, 3, 2663);
+data.setCell(20, 1, 'addtocart_updateqty_removeitems')
+data.setCell(20, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty')
+data.setCell(20, 3, 3878);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'checkout_paymentMethod_orderreview')
-data.setCell(21, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario')
-data.setCell(21, 3, 2164);
+data.setCell(21, 1, 'login_search_filters')
+data.setCell(21, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters')
+data.setCell(21, 3, 3825);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'coupon_codeapply')
+data.setCell(22, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply')
+data.setCell(22, 3, 3020);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'coupon_codeapply')
+data.setCell(23, 2, 'packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply')
+data.setCell(23, 3, 2773);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -948,43 +1111,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addtocart_updateqty_removeitems</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Testcase is passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">login_validcredentials</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Testcase is passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">newcustomer_registration</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Testcase is passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">manage_profiles</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Testcase is passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addtocart</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Testcase is passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">login_search_modifyvalue_sorting</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Testcase is passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">coupon_codeapply</span>
+              <span class="reporter-method-name">login_invalidcredentials</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Testcase is passed</span>
               </div> <!-- reporter-method-output-div -->
@@ -1002,19 +1129,7 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">login_search_productinformation</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Testcase is passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">login_search_filters</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Testcase is passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">checkout_paymentMethod_orderreview</span>
+              <span class="reporter-method-name">newcustomer_registration</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Testcase is passed</span>
               </div> <!-- reporter-method-output-div -->
@@ -1026,9 +1141,57 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">login_invalidcredentials</span>
+              <span class="reporter-method-name">login_search_modifyvalue_sorting</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Testcase is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login_search_productinformation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Testcase is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addtocart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Testcase is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkout_paymentMethod_orderreview</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Testcase is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login_validcredentials</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Testcase is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">manage_profiles</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Testcase is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">coupon_codeapply</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Testcase is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addtocart_updateqty_removeitems</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Testcase is failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login_search_filters</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Testcase is failed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1053,302 +1216,330 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">newcustomer_registration</span>
-                <span class="method-start">11686 ms</span>
+                <span class="method-start">9281 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">17173 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launch</span>
-                <span class="method-start">19245 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">newcustomer_registration</span>
-                <span class="method-start">27963 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">35609 ms</span>
+                <span class="method-start">16401 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase2_LoginWithValidCred</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">37238 ms</span>
+                <span class="method-start">18528 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_validcredentials</span>
-                <span class="method-start">46799 ms</span>
+                <span class="method-start">26440 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">56944 ms</span>
+                <span class="method-start">37254 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase3_LoginWithInValidCred</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">58620 ms</span>
+                <span class="method-start">38922 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_invalidcredentials</span>
-                <span class="method-start">65873 ms</span>
+                <span class="method-start">45418 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">69587 ms</span>
+                <span class="method-start">49528 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">71239 ms</span>
+                <span class="method-start">51351 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_invalidcredentials</span>
-                <span class="method-start">79097 ms</span>
+                <span class="method-start">58688 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">85407 ms</span>
+                <span class="method-start">65264 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">86980 ms</span>
+                <span class="method-start">67276 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">manage_profiles</span>
-                <span class="method-start">94069 ms</span>
+                <span class="method-start">73632 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">97567 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launch</span>
-                <span class="method-start">99163 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">manage_profiles</span>
-                <span class="method-start">106319 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">139548 ms</span>
+                <span class="method-start">116692 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase5_SearchProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">141295 ms</span>
+                <span class="method-start">118858 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_searchproduct</span>
-                <span class="method-start">149971 ms</span>
+                <span class="method-start">125773 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">167359 ms</span>
+                <span class="method-start">130556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">132141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_searchproduct</span>
+                <span class="method-start">140107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">166764 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase6_SearchandApplyFilters</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">169037 ms</span>
+                <span class="method-start">168650 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_search_filters</span>
-                <span class="method-start">176277 ms</span>
+                <span class="method-start">176422 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">204218 ms</span>
+                <span class="method-start">183217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">184953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_search_filters</span>
+                <span class="method-start">194722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">199084 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">200759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login_search_filters</span>
+                <span class="method-start">210261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">215615 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase7_Login_Search_Productinfo</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">205888 ms</span>
+                <span class="method-start">217513 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_search_productinformation</span>
-                <span class="method-start">214587 ms</span>
+                <span class="method-start">226218 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">237450 ms</span>
+                <span class="method-start">253885 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">255803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_search_productinformation</span>
+                <span class="method-start">263912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">289213 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase8_Login_Search_Productsorting</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">239233 ms</span>
+                <span class="method-start">291155 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login_search_modifyvalue_sorting</span>
-                <span class="method-start">246832 ms</span>
+                <span class="method-start">299194 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">264109 ms</span>
+                <span class="method-start">316104 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase9_Login_Search_Addtocart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">265997 ms</span>
+                <span class="method-start">317888 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addtocart</span>
-                <span class="method-start">273651 ms</span>
+                <span class="method-start">324460 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">297527 ms</span>
+                <span class="method-start">353649 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase10_Login_Search_Cart_Updateqty</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">299402 ms</span>
+                <span class="method-start">355649 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addtocart_updateqty_removeitems</span>
-                <span class="method-start">307667 ms</span>
+                <span class="method-start">361637 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">310602 ms</span>
+                <span class="method-start">366129 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">312168 ms</span>
+                <span class="method-start">367915 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addtocart_updateqty_removeitems</span>
-                <span class="method-start">320149 ms</span>
+                <span class="method-start">374090 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">357176 ms</span>
+                <span class="method-start">378623 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">380267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addtocart_updateqty_removeitems</span>
+                <span class="method-start">387957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">393375 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">359093 ms</span>
+                <span class="method-start">395105 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkout_paymentMethod_orderreview</span>
-                <span class="method-start">367498 ms</span>
+                <span class="method-start">399084 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">369662 ms</span>
+                <span class="method-start">519593 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">371275 ms</span>
+                <span class="method-start">521413 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkout_paymentMethod_orderreview</span>
-                <span class="method-start">379517 ms</span>
+                <span class="method-start">528251 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">457227 ms</span>
+                <span class="method-start">609596 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase12_SelectEachPaymentMethod</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">459196 ms</span>
+                <span class="method-start">611741 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">paymentMethod_Selection</span>
-                <span class="method-start">467055 ms</span>
+                <span class="method-start">620231 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">470511 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launch</span>
-                <span class="method-start">472160 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">paymentMethod_Selection</span>
-                <span class="method-start">480678 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">483607 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launch</span>
-                <span class="method-start">485201 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">paymentMethod_Selection</span>
-                <span class="method-start">492649 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">530491 ms</span>
+                <span class="method-start">657189 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase13_Checkout_Couponapply</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">532242 ms</span>
+                <span class="method-start">659003 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">coupon_codeapply</span>
-                <span class="method-start">540216 ms</span>
+                <span class="method-start">666937 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">542880 ms</span>
+                <span class="method-start">669711 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">544491 ms</span>
+                <span class="method-start">671395 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">coupon_codeapply</span>
-                <span class="method-start">551970 ms</span>
+                <span class="method-start">678643 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">580311 ms</span>
+                <span class="method-start">681664 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">683316 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">coupon_codeapply</span>
+                <span class="method-start">690287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">722173 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">packageofamazonproject.Amazon_Project_Gtm.Testcase15_Search_Addtocart_Checkout_Withoutlogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launch</span>
-                <span class="method-start">582012 ms</span>
+                <span class="method-start">724015 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">amazonprocess_withoutlogin</span>
-                <span class="method-start">589150 ms</span>
+                <span class="method-start">730572 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quit</span>
-                <span class="method-start">607102 ms</span>
+                <span class="method-start">754323 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

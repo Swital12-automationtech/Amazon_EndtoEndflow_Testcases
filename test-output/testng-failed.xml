@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario">
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration">
         <methods>
-          <include name="checkout_paymentMethod_orderreview"/>
+          <include name="newcustomer_registration"/>
           <include name="quit"/>
           <include name="launch"/>
         </methods>
-      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase11_EndtoEndScenario -->
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase1_NewCustomerRegistration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
