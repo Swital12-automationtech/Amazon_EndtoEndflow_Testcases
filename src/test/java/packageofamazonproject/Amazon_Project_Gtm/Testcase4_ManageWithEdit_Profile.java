@@ -1,5 +1,6 @@
 package packageofamazonproject.Amazon_Project_Gtm;
 
+import java.awt.AWTException;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -7,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class Testcase4_ManageWithEdit_Profile extends LaunchQuit {
 	@Test(retryAnalyzer = IRetry_Logic.class)
-	public void manage_profiles() throws InterruptedException, EncryptedDocumentException, IOException {
+	public void manage_profiles() throws InterruptedException, EncryptedDocumentException, IOException, AWTException {
 		HomePage homepage = new HomePage(driver);
 		homepage.hoverover(driver);
 		homepage.signin();

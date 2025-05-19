@@ -1,5 +1,6 @@
 package packageofamazonproject.Amazon_Project_Gtm;
 
+import java.awt.AWTException;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -11,7 +12,7 @@ import org.testng.annotations.Test;
 public class Testcase11_EndtoEndScenario extends LaunchQuit {
 	@Test(retryAnalyzer = IRetry_Logic.class)
 	public void checkout_paymentMethod_orderreview()
-			throws InterruptedException, EncryptedDocumentException, IOException {
+			throws InterruptedException, EncryptedDocumentException, IOException, AWTException {
 		HomePage homepage = new HomePage(driver);
 		homepage.hoverover(driver);
 		homepage.signin();
@@ -31,7 +32,7 @@ public class Testcase11_EndtoEndScenario extends LaunchQuit {
 		ShoppingCartPage cartpage = new ShoppingCartPage(driver);
 		cartpage.cartbtn();
 		cartpage.productqty();
-		cartpage.removeitembtn();
+	//	cartpage.removeitembtn();
 
 		CheckoutPage checkout = new CheckoutPage(driver);
 		// checkout.cartlink();

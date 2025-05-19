@@ -22,6 +22,8 @@ public class Listner implements ITestListener
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
+		if(driver != null)
+		{
 		// Step 1
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		// step 2
@@ -35,11 +37,17 @@ public class Listner implements ITestListener
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		}
+		else
+		{
 		Reporter.log("Testcase is passed");		
+	}
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
+		if(driver != null)
+		{
 		// Step 1
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		// step 2
@@ -53,7 +61,11 @@ public class Listner implements ITestListener
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		}
+		else
+		{
 		Reporter.log("Testcase is failed");
+	}
 	}
 
 	@Override

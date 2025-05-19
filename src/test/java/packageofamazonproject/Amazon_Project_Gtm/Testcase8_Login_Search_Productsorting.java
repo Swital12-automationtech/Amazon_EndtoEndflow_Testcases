@@ -1,5 +1,6 @@
 package packageofamazonproject.Amazon_Project_Gtm;
 
+import java.awt.AWTException;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 public class Testcase8_Login_Search_Productsorting extends LaunchQuit
 {
 	@Test(retryAnalyzer=IRetry_Logic.class)
-	public void login_search_modifyvalue_sorting() throws EncryptedDocumentException, IOException 
+	public void login_search_modifyvalue_sorting() throws EncryptedDocumentException, IOException, InterruptedException, AWTException 
 	{
 	HomePage homepage = new HomePage(driver);
 	homepage.hoverover(driver);

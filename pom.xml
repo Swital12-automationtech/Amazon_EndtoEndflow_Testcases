@@ -26,12 +26,13 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>7.8.0</version>
-			<scope>compile</scope>
-		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.8.0</version>
+    <scope>compile</scope>
+</dependency>
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
@@ -53,7 +54,7 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	 </dependencies>
 
 	<build>
 		<pluginManagement>

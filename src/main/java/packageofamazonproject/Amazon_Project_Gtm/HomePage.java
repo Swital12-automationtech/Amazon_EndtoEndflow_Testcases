@@ -24,7 +24,7 @@ public class HomePage {
 
 	// step 2
 	public void hoverover(WebDriver driver) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(accountandlist_hoverover));
 		Actions a1 = new Actions(driver);
 		a1.moveToElement(continueButton).perform();

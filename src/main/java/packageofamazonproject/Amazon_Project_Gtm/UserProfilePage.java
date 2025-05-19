@@ -24,6 +24,10 @@ public class UserProfilePage {
 	WebElement viewlink;
 	@FindBy(xpath = "//div[.='Preferred department']")
 	WebElement deptexpand;
+	@FindBy(xpath = "//button[.='Clear']")
+	WebElement cleardept;
+	@FindBy(xpath = "//button[.='Yes, clear my data']")
+	WebElement cleardata;
 	@FindBy(xpath = "//button[.='Add']")
 	WebElement adddept;
 	@FindBy(xpath = "//button[.='Women']")
@@ -69,6 +73,10 @@ public class UserProfilePage {
 
 	public void adddepatment() throws InterruptedException {
 		Thread.sleep(3000);
+		cleardept.click();
+		Thread.sleep(2000);
+		cleardata.click();
+		Thread.sleep(2000);
 		adddept.click();
 	}
 
