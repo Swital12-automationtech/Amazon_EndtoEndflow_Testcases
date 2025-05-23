@@ -17,7 +17,8 @@ public class LaunchQuit extends Listner
 	@BeforeMethod()
 	public void launch()
 	{
-		driver = new EdgeDriver();
+		
+		driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
 	}

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile">
+      <class name="packageofamazonproject.Amazon_Project_Gtm.Testcase2_LoginWithValidCred">
         <methods>
-          <include name="manage_profiles"/>
+          <include name="login_validcredentials"/>
           <include name="quit"/>
           <include name="launch"/>
         </methods>
-      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase4_ManageWithEdit_Profile -->
+      </class> <!-- packageofamazonproject.Amazon_Project_Gtm.Testcase2_LoginWithValidCred -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
