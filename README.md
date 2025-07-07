@@ -14,6 +14,7 @@ This project is an end-to-end test automation framework developed to simulate re
 - **Test Data Handling:** Data-Driven Testing (Excel)  
 - **Reports:** ExtentReports (auto-generated)  
 - **Screenshots:** Captured on failure  
+- **CI Tool:** Jenkins  
 - **Version Control:** GitHub  
 
 ---
